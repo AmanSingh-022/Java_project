@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SocietyManagementSystem">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/images/SocietyManagementSystem.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
