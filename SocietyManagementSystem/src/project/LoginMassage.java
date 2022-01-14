@@ -36,9 +36,6 @@ public class LoginMassage implements ActionListener {
     }
 
 
-    //public static void main(String[] args) {
-       // new LoginMassage();
-  //  }
 
     public void actionPerformed(ActionEvent e) {
         f.setVisible(false);

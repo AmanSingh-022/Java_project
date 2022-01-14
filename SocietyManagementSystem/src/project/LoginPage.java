@@ -31,7 +31,7 @@ public class LoginPage extends JFrame implements ActionListener {
         t1.setFont(font1);
         c.add(t1);
 
-        ImageIcon i1=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\loginIcon.png");
+        ImageIcon i1=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\loginIcon.png");
         Image i2=i1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel l=new JLabel(i3);
@@ -76,7 +76,7 @@ public class LoginPage extends JFrame implements ActionListener {
         {
             String originaluser="",entereduser=f1.getText();
             String originalpass="",enteredpass=f2.getText();
-            File obj=new File("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\File\\login.txt");
+            File obj=new File("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\File\\login.txt");
             try {
                 Scanner sc=new Scanner(obj);
                 originaluser=sc.next();

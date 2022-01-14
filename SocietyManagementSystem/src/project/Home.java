@@ -11,7 +11,7 @@ public class Home extends JFrame implements ActionListener {
     {
         setTitle("Society Management System");
         setBounds(0,0,1920,1080);
-        ImageIcon i1= new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\ele-2.jpg");
+        ImageIcon i1= new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\homebg.jpg");
         Image i2= i1.getImage().getScaledInstance(1920,1080,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel l1= new JLabel(i3);
@@ -35,7 +35,7 @@ public class Home extends JFrame implements ActionListener {
         l1.add(b2);
 
         b3=new JButton("ADMIN");
-        b3.setBounds(1150,30,120,35);
+        b3.setBounds(1000,30,120,35);
         b3.setFont(new Font("sarif",Font.BOLD,12));
         b3.setForeground(Color.white);
         b3.setBackground(Color.gray);
@@ -43,7 +43,7 @@ public class Home extends JFrame implements ActionListener {
         l1.add(b3);
 
         b4=new JButton("MEMBER");
-        b4.setBounds(1300,30,120,35);
+        b4.setBounds(1140,30,120,35);
         b4.setFont(new Font("sarif",Font.BOLD,12));
         b4.setForeground(Color.white);
         b4.setBackground(Color.gray);
@@ -79,7 +79,7 @@ public class Home extends JFrame implements ActionListener {
         }
         if(e.getSource()==b4)
         {
-//            LoginPage ml=new LoginPage("Member Login");
+            LoginPage ml=new LoginPage("Member Login");
             this.setVisible(false);
             new MemberLogin();
         }

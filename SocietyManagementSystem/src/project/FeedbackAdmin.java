@@ -23,7 +23,7 @@ public class FeedbackAdmin extends JFrame{
         a1.setFont(new Font("Tahoma", Font.PLAIN, 17));
         add(a1);
 
-        File obj=new File("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\File\\file.txt");
+        File obj=new File("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\File\\file.txt");
         Scanner sc=new Scanner(obj);
         String res="";
         while(sc.hasNextLine())

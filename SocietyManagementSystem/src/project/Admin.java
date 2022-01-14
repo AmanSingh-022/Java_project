@@ -23,28 +23,28 @@ public class Admin extends JFrame implements ActionListener {
         setBounds(0,0,1920,1080);
         c.setBackground(Color.LIGHT_GRAY);
 
-        ImageIcon i1=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\admin4.jpg");
+        ImageIcon i1=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\admin4.jpg");
         Image i2=i1.getImage().getScaledInstance(400,150,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         l1=new JLabel(i3);
         l1.setBounds(0,0,400,150);
         c.add(l1);
 
-        ImageIcon i4=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\admin5.jpg");
+        ImageIcon i4=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\admin5.jpg");
         Image i5=i4.getImage().getScaledInstance(400,150,Image.SCALE_DEFAULT);
         ImageIcon i6=new ImageIcon(i5);
         l2=new JLabel(i6);
         l2.setBounds(400,0,400,150);
         c.add(l2);
 
-        ImageIcon i7=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\admin6.jpg");
+        ImageIcon i7=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\admin6.jpg");
         Image i8=i7.getImage().getScaledInstance(400,150,Image.SCALE_DEFAULT);
         ImageIcon i9=new ImageIcon(i8);
         l3=new JLabel(i9);
         l3.setBounds(800,0,400,150);
         c.add(l3);
 
-        ImageIcon i10=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\admin4.jpg");
+        ImageIcon i10=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\admin4.jpg");
         Image i11=i10.getImage().getScaledInstance(400,150,Image.SCALE_DEFAULT);
         ImageIcon i12=new ImageIcon(i11);
         l4=new JLabel(i12);
