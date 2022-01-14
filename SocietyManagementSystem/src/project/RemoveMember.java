@@ -11,10 +11,10 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class RemoveMember extends JFrame implements ActionListener {
-    JFrame f;
+    public JFrame f;
     JLabel j1,j2,j3;
     JTextField t1,t2;
-    JButton b1;
+    public JButton b1;
     Container c;
     RemoveMember()
     {

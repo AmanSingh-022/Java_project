@@ -42,7 +42,7 @@ public class EditMember extends RemoveMember{
 
                     if(nm.equals(name) && mobile.equals(phone))
                     {
-                        setVisible(false);
+                       setVisible(false);
                         String str = name + " " + age + " " + gender + " " + occupation + " " + phone + " " + aadhar + " " + email + " " + vehicle + " " + flat + " " + flatno+" ";
                         NewDetails ob=new NewDetails(str);
 

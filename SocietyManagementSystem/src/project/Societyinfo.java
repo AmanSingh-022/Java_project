@@ -12,7 +12,7 @@ public class Societyinfo extends JFrame implements ActionListener {
         // setSize(400,400);
 
         //setLocation(400,400);
-        ImageIcon i1 = new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\bg.jpg");
+        ImageIcon i1 = new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\bg.jpg");
         Image i2 = i1.getImage().getScaledInstance(1920, 1080, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l1 = new JLabel(i3);

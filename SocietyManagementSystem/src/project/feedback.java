@@ -19,7 +19,7 @@ JButton submitBtn,backBtn;
         setBounds(0,0,1300,680);
         setTitle("Feedback");
 
-        ImageIcon i1=new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\feed.jpeg");
+        ImageIcon i1=new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\feed.jpeg");
         Image i2= i1.getImage().getScaledInstance(1300,680,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel l1=new JLabel(i3);

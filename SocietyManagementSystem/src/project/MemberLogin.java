@@ -14,7 +14,7 @@ JLabel l1,l2;
        setTitle("Member Login");
 
 
-        ImageIcon i1= new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\memberbg.jpeg");
+        ImageIcon i1= new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\memberbg.jpeg");
         Image i2= i1.getImage().getScaledInstance(1300,680,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
          l1= new JLabel(i3);

@@ -23,7 +23,7 @@ public class profile extends JFrame implements ActionListener{
 Container c =new Container();
 c=getContentPane();
 c.setBackground(Color.LIGHT_GRAY);
-        ImageIcon i1= new ImageIcon("C:\\Users\\lenovo\\IdeaProjects\\rectifier\\SocietyManagementSystem\\src\\images\\profile.png");
+        ImageIcon i1= new ImageIcon("C:\\Users\\AMAN SINGH\\OneDrive\\Desktop\\git_Intellij\\SocietyManagementSystem\\src\\images\\profile.png");
         Image i2= i1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel l1=new JLabel();
